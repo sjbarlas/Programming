@@ -7,12 +7,17 @@ You can use paranthesis to make whichever inside it more important
 """
 # This AND That (OR This but NOT That)
 
-bool_one = False # False or not True and True
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"
 
-bool_two = True # False and not True or True
+# Make me true!
+bool_two = 7 > 3 or 4 < 8
 
-bool_three = True # True and not (False or False)
+# Make me false!
+bool_three =  6 * 3 < 3 and "This" == "This"
 
-bool_four = True # not not True or False and not True
+# Make me true!
+bool_four = 40 == 40 and "This is it!" == "This is it!"
 
-bool_five = False # False or not (True and True)
+# Make me true!
+bool_five = not 14 != 14

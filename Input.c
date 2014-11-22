@@ -1,4 +1,6 @@
-#include <stiod.h>
+/* Random program */
+
+#include <stdio.h>
 main()
 {
   int a, b, c;

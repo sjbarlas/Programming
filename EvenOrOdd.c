@@ -17,14 +17,14 @@ main()
     {
       printf("\n\nYour first number is even!\n");
       break;
-    }
+    } // end if
 
     else
     {
       printf("\n\nYour first number is odd!\n");
       break;
-    }
-  }
+    } // end else
+  } // end for
 
   for(integer = 0; integer <= b; integer++)
   {
@@ -32,12 +32,12 @@ main()
     {
       printf("\n\nYour second number is even!\n");
       break;
-    }
+    } // end if
 
     else
     {
       printf("\n\nYour second number is odd!\n");
       break;
-    } 
-  } //end for
-} //end main
+    } // end else
+  } // end for
+} // end main

@@ -16,10 +16,10 @@ main()
 	if(c > 100)
 	{
 		printf("\nYou're ahead of the schedule!");
-	}
+	} // end if
 	
 	else
 	{
 		printf("\nThis really is what you got!");
-	}
-}
+	} // end else
+} // end main

@@ -1,4 +1,4 @@
-/*Program to check if a number is even or odd*/
+/* Program to check if a number is even or odd */
 
 #include <stdio.h>
 main()

@@ -71,7 +71,7 @@ main()
                     L = 5;
                     while(lives != 0)
                     {
-                        printf("LIVES = %d\n", lives);
+                        printf("\nLIVES = %d\n", lives);
                         printf("WORD: %c %c %c %c %c\n", Space1, Space2, Space3, Space4, Space5);
                         printf("GUESS A LETTER: ");
                         scanf(" %c", &W); // user enters their guess
@@ -140,7 +140,7 @@ main()
                     L = 5;
                     while(lives != 0)
                     {
-                        printf("LIVES = %d\n", lives);
+                        printf("\nLIVES = %d\n", lives);
                         printf("WORD: %c %c %c %c %c\n", Space1, Space2, Space3, Space4, Space5);
                         printf("GUESS A LETTER: ");
                         scanf(" %c", &W); // user enters their guess
@@ -209,7 +209,7 @@ main()
                     L = 5;
                     while(lives != 0)
                     {
-                        printf("LIVES = %d\n", lives);
+                        printf("\nLIVES = %d\n", lives);
                         printf("WORD: %c %c %c %c %c\n", Space1, Space2, Space3, Space4, Space5);
                         printf("GUESS A LETTER: ");
                         scanf(" %c", &W); // user enters their guess
@@ -278,7 +278,7 @@ main()
                     L = 5;
                     while(lives != 0)
                     {
-                        printf("LIVES = %d\n", lives);
+                        printf("\nLIVES = %d\n", lives);
                         printf("WORD: %c %c %c %c %c\n", Space1, Space2, Space3, Space4, Space5);
                         printf("GUESS A LETTER: ");
                         scanf(" %c", &W); // user enters their guess
@@ -347,7 +347,7 @@ main()
                     L = 5;
                     while(lives != 0)
                     {
-                        printf("LIVES = %d\n", lives);
+                        printf("\nLIVES = %d\n", lives);
                         printf("WORD: %c %c %c %c %c\n", Space1, Space2, Space3, Space4, Space5);
                         printf("GUESS A LETTER: ");
                         scanf(" %c", &W); // user enters their guess

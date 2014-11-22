@@ -17,10 +17,10 @@ main()
     } // end if
 	
     else
-   {
-     printf("\nYour number is odd!\n");
-     break;
-   } //end else
+    {
+      printf("\nYour number is odd!\n");
+      break;
+    } //end else
   } // end for
 } // end main
 

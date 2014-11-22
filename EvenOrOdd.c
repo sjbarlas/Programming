@@ -13,33 +13,29 @@ main()
   printf("\n\n2: ");
   scanf("%d", &b);
 
-  for(integer = 0; integer <= a; integer++)
-  {
     if(a % 2 == 0)
     {
       printf("\n\nYour first number is even!\n");
-      break;
+
     } // end if
 
     else
     {
       printf("\n\nYour first number is odd!\n");
-      break;
-    } // end else
-  } // end for
 
-  for(integer = 0; integer <= b; integer++)
-  {
+    } // end else
+
+
     if(b % 2 == 0)
     {
       printf("\n\nYour second number is even!\n");
-      break;
+
     } // end if
 
     else
     {
       printf("\n\nYour second number is odd!\n");
-      break;
+
     } // end else
-  } // end for
+
 } // end main

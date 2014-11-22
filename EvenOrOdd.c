@@ -1,3 +1,5 @@
+/* Program to display 2 even or odd numbers */
+
 #include <stdio.h>
 main()
 {

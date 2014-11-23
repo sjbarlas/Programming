@@ -1,3 +1,5 @@
+/*Program to display sizeof of an int */
+
 #include <stdio.h>
 main()
 {

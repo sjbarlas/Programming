@@ -4,12 +4,11 @@
 main()
 {
   int a;
-	
-	printf("Enter number\n");
-	scanf("%d", &a);
-	
-	if(a > 10)
-	{
-		printf("The number you entered %d, is greater than 10", a);
-	}
+  printf("Enter number\n");
+  scanf("%d", &a);
+  
+  if(a > 10)
+  {
+  	printf("The number you entered %d, is greater than 10", a);
+  }
 }

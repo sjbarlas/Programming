@@ -1,4 +1,4 @@
-/* Prints if number > 10 */
+/* Prints if number > 10 etc. */
 
 #include <stdio.h>
 main()

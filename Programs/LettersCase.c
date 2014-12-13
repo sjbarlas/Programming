@@ -15,24 +15,26 @@ int main()
 		case 'a':
 		{
 			printf("\nA is for ANIMAL!");
+			break;
 			
 		}
 		
 		case 'N':
 		{
 			printf("\nN is for NUTS!");
-			
+			break;
 		}
 		
 		case 'v':
 		{
 			printf("\nV is for VULTURE!");
-			
+			break;
 		}
 		
 		default:
 		{
 			printf("\nUnacceptable letter!!!");
+			break;
 		}
 	}
 		return 0;

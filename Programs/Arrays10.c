@@ -1,4 +1,4 @@
-/* Program to check which out of the 10 numbers in an array is the largest */
+/* Program to check which out of the 10 numbers input in an array is the largest */
 
 #include <stdio.h>
 main()

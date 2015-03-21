@@ -22,7 +22,10 @@ clock = pygame.time.Clock()
 carImg = pygame.image.load('Car.png') # loading image
 
 def car(x, y):
-    gameDisplay.blit(carImage(x, y)) # draws imagewith a touple
+    gameDisplay.blit(carImg(x, y)) # draws imagewith a touple
+
+x = (display_width * 0.45)
+y = (display_height * 0.8)
 
 # Game Loop = logic for the game
 # Stop the game? - crashed / quit
@@ -33,6 +36,10 @@ while not crashed:
     for event in pygame.event.get(): # gets any events, mouse on screen, pressing keys etc., per frame per secon
         if event.type == pygame.QUIT: # xs out of the window
             crashed = True # break out of this loop
+
+    gameDisplay.fill(white)
+
+    car(x, y) # show our car
 
     # update our display
     pygame.display.update() # update that one THING in the brackets

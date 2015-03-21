@@ -22,7 +22,7 @@ clock = pygame.time.Clock()
 carImg = pygame.image.load('Car.png') # loading image
 
 def car(x, y):
-    gameDisplay.blit(carImg(x, y)) # draws imagewith a touple
+    gameDisplay.blit(carImg, (x, y)) # draws imagewith a touple
 
 x = (display_width * 0.45)
 y = (display_height * 0.8)

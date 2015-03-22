@@ -28,6 +28,9 @@ carImg = pygame.image.load('Car.png') # loading image
 def car(x, y):
     gameDisplay.blit(carImg, (x, y)) # draws imagewith a touple
 
+def crash(): # message displays
+    message_display('You Crashed')
+
 # VARY
 def game_loop():
 
@@ -65,8 +68,10 @@ def game_loop():
 
         car(x, y) # show our car
 
+        # Boundaries
         if x > display_width - car_width or x < 0: # wide our screen is
             gameExit = True
+            crash()
 
         # update our display
         pygame.display.update() # update that one THING in the brackets

@@ -42,7 +42,7 @@ def game_loop():
     while not gameExit:
         for event in pygame.event.get(): # gets any events, mouse on screen, pressing keys etc., per frame per secon
             if event.type == pygame.QUIT: # xs out of the window
-                crashed = True # break out of this loop
+                gameExit = True # break out of this loop
 
             if event.type == pygame.KEYDOWN: # did someone push any key down
                 if event.key == pygame.K_LEFT: # Left arrow key
@@ -61,6 +61,9 @@ def game_loop():
         gameDisplay.fill(white)
 
         car(x, y) # show our car
+
+        if x > display_width or x < 0: # wide our screen is
+            gameExit = True
 
         # update our display
         pygame.display.update() # update that one THING in the brackets

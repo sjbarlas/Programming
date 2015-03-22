@@ -34,7 +34,7 @@ x_change = 0 # location
 # Stop the game? - crashed / quit
 crashed = False # games starts with no crash
 
-#EVENT HANDLING
+# EVENT HANDLING
 # while still no crash
 while not crashed:
     for event in pygame.event.get(): # gets any events, mouse on screen, pressing keys etc., per frame per secon

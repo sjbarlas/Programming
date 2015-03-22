@@ -48,7 +48,7 @@ while not crashed:
                 x_change = 5
 
         if event.type == pygame.KEYUP: # key has been released
-            if event.key == pygame.K_LEFT or event.key == pygame.L_RIGHT:
+            if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                 x_change = 0
 
                 

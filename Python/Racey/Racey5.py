@@ -64,7 +64,7 @@ def game_loop():
 
         x += x_change # change location of car
 
-        gameDisplay.fill(white)
+        gameDisplay.fill(black)
 
         car(x, y) # show our car
 

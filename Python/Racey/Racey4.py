@@ -26,7 +26,7 @@ def car(x, y):
     gameDisplay.blit(carImg, (x, y)) # draws imagewith a touple
 
 # VARY
-def game_loop
+def game_loop():
 
     x = (display_width * 0.45)
     y = (display_height * 0.8)
@@ -70,5 +70,6 @@ def game_loop
         # move the frame on or how fast are we gonna do this stuff
         clock.tick(60) # 60 fps - higher the fps - more smooth things are
 
+game_loop() # GAME_LOOP RUNNING
 pygame.quit() # stop pygame from running
 quit() # stop everything else "are you sure?" in IDLE

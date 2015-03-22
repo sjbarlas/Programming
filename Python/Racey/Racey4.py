@@ -9,6 +9,9 @@ display_height = 600
 black = (0, 0, 0) # rgb
 white = (255, 255, 255) # rgb
 
+# width of car pic
+car_width = 100
+
 # width and height
 gameDisplay = pygame.display.set_mode((display_width, display_height)) # touple
 
@@ -62,7 +65,7 @@ def game_loop():
 
         car(x, y) # show our car
 
-        if x > display_width or x < 0: # wide our screen is
+        if x > display_width-car_width or x < 0: # wide our screen is
             gameExit = True
 
         # update our display

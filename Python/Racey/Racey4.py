@@ -35,11 +35,11 @@ def game_loop():
 
     # Game Loop = logic for the game
     # Stop the game? - crashed / quit
-    crashed = False # games starts with no crash
+    gameExit = False # games starts with no crash
 
     # EVENT HANDLING
     # while still no crash
-    while not crashed:
+    while not gameExit:
         for event in pygame.event.get(): # gets any events, mouse on screen, pressing keys etc., per frame per secon
             if event.type == pygame.QUIT: # xs out of the window
                 crashed = True # break out of this loop

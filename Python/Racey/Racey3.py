@@ -28,6 +28,8 @@ def car(x, y):
 x = (display_width * 0.45)
 y = (display_height * 0.8)
 
+x_change = 0 # location
+
 # Game Loop = logic for the game
 # Stop the game? - crashed / quit
 crashed = False # games starts with no crash
@@ -38,6 +40,16 @@ while not crashed:
     for event in pygame.event.get(): # gets any events, mouse on screen, pressing keys etc., per frame per secon
         if event.type == pygame.QUIT: # xs out of the window
             crashed = True # break out of this loop
+
+        if event.type == pygame.KEYDOWN: # did someone push any key down
+            if event.key == pygame.K_LEFT: # Left arrow key
+                x_change = -5 # moving"
+            elif event.key == pygame.K_RIGHT:
+                x_change = 5
+
+        if event.type == pygame.KEYUP: # key has been released
+            if event.key == pygame.K_LEFT or event.key == pygame.L_RIGHT:
+                x_change = 0
 
     gameDisplay.fill(white)
 

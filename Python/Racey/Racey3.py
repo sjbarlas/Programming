@@ -43,13 +43,15 @@ while not crashed:
 
         if event.type == pygame.KEYDOWN: # did someone push any key down
             if event.key == pygame.K_LEFT: # Left arrow key
-                x_change = -5 # moving"
+                x_change = -5 # moving
             elif event.key == pygame.K_RIGHT:
                 x_change = 5
 
         if event.type == pygame.KEYUP: # key has been released
             if event.key == pygame.K_LEFT or event.key == pygame.L_RIGHT:
                 x_change = 0
+
+                
 
     gameDisplay.fill(white)
 

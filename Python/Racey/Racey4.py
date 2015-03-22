@@ -65,7 +65,7 @@ def game_loop():
 
         car(x, y) # show our car
 
-        if x > display_width-car_width or x < 0: # wide our screen is
+        if x > display_width - car_width or x < 0: # wide our screen is
             gameExit = True
 
         # update our display

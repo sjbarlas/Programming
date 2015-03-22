@@ -49,9 +49,11 @@ while not crashed:
 
         if event.type == pygame.KEYUP: # key has been released
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
-                x_change = 0
+                x_change = 0 # does nothing
 
                 
+
+    x += x_change # change location of car
 
     gameDisplay.fill(white)
 

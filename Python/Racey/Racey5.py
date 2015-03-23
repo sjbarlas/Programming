@@ -1,4 +1,4 @@
-# Everything
+# Everything maybe
 import pygame
 # other modules go here
 pygame.init() # initiation function with pygame

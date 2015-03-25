@@ -1,5 +1,5 @@
 # Everything
-import pygame
+import pygame # need pygame lib to work
 # other modules go here
 pygame.init() # initiation function with pygame
 

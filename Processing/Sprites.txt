@@ -1,0 +1,11 @@
+Spriter https://www.youtube.com/playlist?list=PL8Vej0NhCcI5sxOT64-Z31LW59VUyAVfr
+
+Graphics Gale http://www.humanbalance.net/gale/us/index.html
+
+Aseprite http://www.aseprite.org/
+
+Pro motion http://www.cosmigo.com/promotion/index.php?Home_%28Pro_Motion%29
+
+Spine http://esotericsoftware.com/spine-in-depth
+
+"BTW. Upon importing into Unity change sprite into "Point". This way sprites won't be blurry."
